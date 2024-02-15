@@ -51,9 +51,10 @@ a {
 }
 
 a:hover{
-    color: gray;
+    color: black;
     text-decoration: underline;
     text-underline-offset: .5rem;
+    text-shadow: gray 2px 2px 25px;
 }
 
 .logo{
@@ -63,3 +64,24 @@ a:hover{
 .logo:hover{
     cursor: default;
 }
+
+/* Hamberger Menu */
+
+#hamburgerNav {
+    display: none;
+}
+
+.hamburgerMenu{
+    position: relative;
+    display: inline-block;
+}
+
+.hamburgerIcon {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 24px;
+    width: 30px;
+    cursor: pointer;
+}
+

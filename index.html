@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bryan's Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
 </head>
 <body>
-    <nav class="desktopNav">
+    <nav id="desktopNav">
         <div class="logo">Bryan Ochoa-Flores</div>
         <div>
             <ul class="navLinks">
@@ -16,6 +17,22 @@
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="/contact.html">Contact</a></li>
             </ul>
+        </div>
+    </nav>
+    <nav id="hamburgerNav">
+        <div class="logo">Bryan Ochoa-Flores</div>
+        <div class="hamburgerMenu">
+            <div class="hamburgerIcon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menuLinks">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+                <li><a href="/contact.html" onclick="toggleMenu()">Contact</a></li>
+            </div>
         </div>
     </nav>
     <script src="script.js"></script>
