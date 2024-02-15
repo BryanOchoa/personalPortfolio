@@ -144,3 +144,101 @@ a:hover{
 .hamburgerIcon span:first-child {
     transform: none;
 }
+
+/*sections*/
+
+section{
+    padding-top: 4vh;
+    height: 96vh;
+    margin: 0 10rem;
+    box-sizing: border-box;
+    min-height: fit-content;
+}
+
+.sectionContainer {
+    display: flex;
+}
+
+/* Profile */
+
+#profile {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    height: 80vh;
+}
+
+.sectionPicContainer {
+    display: flex;
+    height: 400px;
+    width: 400px;
+    margin: auto 0;
+}
+
+.profilePic{
+    border-radius: 50%;
+}
+
+.sectionText {
+    align-self: center;
+    text-align: center;
+}
+
+.sectionText p {
+    font-weight: 600;
+}
+
+.sectionTextP1{
+    text-align: center;
+}
+
+.sectionTextP2{
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+}
+
+.title{
+    font-size: 3rem;
+    text-align: center;
+}
+
+#socialsContainer {
+    display: inline-flex;
+    justify-content: center;
+    margin-top: 1rem;
+    margin-right: 5px;
+    gap: 1rem;
+}
+
+/* Icons */
+
+.icon {
+    cursor: pointer;
+    height: 2rem;
+}
+
+/* Buttons */
+
+.btnContainer{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.btn {
+    font-weight: 600;
+    transition: all 300ms ease;
+    padding: 1rem;
+    width: 8rem;
+    border-radius: 2rem;
+}
+
+.btnColor1 {
+    border: rgb(53, 53, 53)0.2rem solid;
+}
+
+.btnColor1:hover {
+    cursor: pointer;
+    background-color: rgb(53, 53, 53);
+    color: white; 
+}
