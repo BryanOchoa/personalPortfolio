@@ -65,7 +65,7 @@ a:hover{
     cursor: default;
 }
 
-/* Hamberger Menu */
+/* Hamburger Menu */
 
 #hamburgerNav {
     display: none;
@@ -241,4 +241,58 @@ section{
     cursor: pointer;
     background-color: rgb(53, 53, 53);
     color: white; 
+}
+
+
+/* About Section */
+
+#about {
+    position: relative;
+}
+
+.aboutContainers {
+    gap: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.aboutDetailsContainer{
+    justify-content: center;
+    flex-direction: column;
+}
+
+.aboutContainers, 
+.aboutDetailsContainer {
+    display: flex;
+}
+
+.aboutPic {
+    border-radius: 50%;
+}
+
+.arrow {
+    position: absolute;
+    right:-6rem;
+    bottom: 5.5rem;
+}
+
+.detailsContainer {
+    padding: 1.5rem;
+    flex: 1;
+    background-color: white;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+    text-align: center;
+}
+
+.sectionContainer {
+    gap: 4rem;
+    height: 80%;
+}
+
+.sectionPicContainer {
+    height: 400px;
+    width: 400px;
+    margin: auto 0;
 }
