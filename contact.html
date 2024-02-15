@@ -4,8 +4,86 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Let's Chat</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    
+    <nav id="desktopNav">
+        <div class="logo">Bryan Ochoa-Flores</div>
+        <div>
+            <ul class="navLinks">
+                <li><a href="/index.html">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburgerNav">
+        <div class="logo">Bryan Ochoa-Flores</div>
+        <div class="hamburgerMenu">
+            <div class="hamburgerIcon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menuLinks">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="/contact.html" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="contact">
+        <p class="sectionTextP1">
+            Get in touch
+        </p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contactContainer">
+            <div class="profilePicContainer">
+                <img src="/assets/profilePic2.png" alt="Profile Picture" class="profilePic">
+            </div>
+        <div class="contactInfoUpperContainer">
+            <div class="contactInfoContainer">
+                <img src="/assets/email.png" alt="Email Icon" 
+                class="icon contactIcon">
+                <p><a href="mailto:bandatradesllc@gmail.com">
+                    example@gmail.com</a></p>
+            </div>
+            <div class="contactInfoContainer">
+                <img src="/assets/linkedin.png" alt="LinkedIn Icon" 
+                class="icon contactIcon">
+                <p><a href="http://linkedin.com">
+                   Linkedin</a></p>
+            </div>
+
+        </div>
+        <form class="contactInfoUpperContainer" id="contactForm" 
+        onsubmit="return validateForm()">
+            <h4>Leave me a message I'll Get back to you.</h4>
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" maxlength="600" required></textarea>
+            </div>
+
+            <button type="submit" class="btn btnColor1">Submit</button>
+        </form>
+    </section>
+    <footer>
+        <p>Made by B.O.F <i class="fa-solid fa-user-secret"></i> 2024</p>
+    </footer>
+    <script src="script.js"></script>
 </body>
 </html>
