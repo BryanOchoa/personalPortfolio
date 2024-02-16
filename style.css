@@ -134,13 +134,16 @@ a {
 
 .menuLinks{
     position: absolute;
-    top: 100%;
-    right: 0;
-    background-color: white;
+    top: 60px;
+    right: 2rem;
+    background-color: rgb(255, 255, 255, 0.1);
     width: fit-content;
     max-height: 0;
     overflow: hidden;
     transition: all 0.3 ease-in-out;
+    backdrop-filter: blur(15px);
+    border-radius: 15px;
+    overflow: hidden;
 }
 
 .menuLinks a{
@@ -155,6 +158,10 @@ a {
 
 .menuLinks li{
     list-style: none;
+    padding: 0.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .menuLinks.open{
