@@ -111,18 +111,18 @@
         align-items: center;
         flex-direction: column;
         height: auto;
-        margin: 0; /* Remove margin to reduce space */
-        padding: 10px; /* Add some padding to the contact section */
+        margin: 0;
+        padding: 10px; 
     }
 .profilePicContainer,
 .contactContainer,
 #contactForm,
 .contactInfoContainer {
-    margin: 10px 0; /* Adjust the margin as needed */
+    margin: 10px 0; 
 }
 
 .profilePicContainer {
-    margin-bottom: 10px; /* Adjust the margin as needed */
+    margin-bottom: 10px;
 }
 
 .profilePic {
@@ -130,7 +130,7 @@
     width: auto;
     height: 46vw;
     display: block;
-    margin: 0 auto; /* Center the image horizontally */
+    margin: 0 auto; 
 }
 
 .contactContainer {
@@ -138,51 +138,50 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top: 10px; /* Adjust the margin as needed */
+    margin-top: 10px; 
 }
 
 #contactForm {
-    margin-top: 10px; /* Adjust the margin as needed */
+    margin-top: 10px; 
 }
 
 .contactInfoContainer {
-    margin: 5px 0; /* Adjust the margin as needed */
+    margin: 5px 0; 
 }
 
 .contactIcon {
     height: 1.5rem;
-    margin-right: 5px; /* Adjust the margin as needed */
+    margin-right: 5px; 
 }
 
 .form-group {
-    margin-bottom: 10px; /* Adjust the margin as needed */
-}
+    margin-bottom: 10px; 
 
 label {
-    margin-bottom: 5px; /* Adjust the margin as needed */
+    margin-bottom: 5px; 
 }
 
 textarea {
-    height: 100px; /* Adjust the height as needed */
+    height: 100px; 
 }
 
 button {
-    margin-top: 10px; /* Adjust the margin as needed */
+    margin-top: 10px; 
 }
 
-/* Additional Adjustments */
+
 section {
-    gap: 0rem; /* Adjust the gap between sections as needed */
+    gap: 0rem; 
 }
 
 section p,
 .title {
-    margin-bottom: 10px; /* Adjust the margin as needed */
+    margin-bottom: 10px; 
 }
 
 /* Adjust spacing for the footer */
 footer {
     height: fit-content;
-    margin-top: 10px; /* Adjust the margin as needed */
+    margin-top: 10px; 
 }
-}
+}}
